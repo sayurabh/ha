@@ -11,6 +11,7 @@ app.post('/callback1', function(req, res) {
   
 
     res.send(user_id);
+    console.log("frp");
 });
 app.listen(3000, () => {
     console.log('Server is up on 3000')
